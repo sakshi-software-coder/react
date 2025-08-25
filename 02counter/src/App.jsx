@@ -12,7 +12,13 @@ const addValue=()=>{
   {
   console.log("value added");
   // console.log(counter+=1)
-  setCounter(counter+1)
+setCounter(counter+1)
+// setCounter(counter+1)
+// setCounter(counter+1)
+
+setCounter(preCount=>preCount+1)
+setCounter(preCount=>preCount+1)
+setCounter(preCount=>preCount+1)
   }
   else{
     console.log("value is greter then 20");
