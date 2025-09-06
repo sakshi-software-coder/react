@@ -145,7 +145,7 @@ return (
                         </div>
                         <div className="w-full mt-1 mb-4">
                             <InputBox
-                                label="tooo"
+                                label="to"
                                 amount={convertedAmount}
                                 currencyOptions={options}
                                 onCurrencyChange={(currency)=>setTo(currency)}
